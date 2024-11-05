@@ -75,7 +75,7 @@ $ cd Trilha-de-Aprendizado-GVAND-Stack\soluction_JFN
 $ npm install
 
 # Rode a aplicação
-$ node mjs
+$ npm start
 ```
 Acesse: http://localhost:4000/ para ver o resultado.
 

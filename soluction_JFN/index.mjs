@@ -1,7 +1,14 @@
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
 import { Neo4jGraphQL } from "@neo4j/graphql";
-import neo4j from "neo4j-driver";
+import neo4j from "neo4j-driver";''
+import env from 'env-var'
+
+const config ={
+    url: env.get('URL_NEO4J').required().asUrlString(),
+    user: env.get('USER_NEO4J').required().asString(),
+    password: env.get('PASS_NEO4J').required().asString()
+}
 
 const typeDefs = `#graphql
     type ActedInProperties @relationshipProperties {
@@ -146,8 +153,8 @@ const typeDefs = `#graphql
 `;
 
 const driver = neo4j.driver(
-    "bolt://44.222.162.5:7687",
-    neo4j.auth.basic("neo4j", "can-releases-operation")
+    config.url,
+    neo4j.auth.basic(config.user, config.password)
 );
 
 const neoSchema = new Neo4jGraphQL({ typeDefs, driver });
