@@ -30,5 +30,5 @@ Os projetos estão dentro da pasta /projetos neste repositório. Lembre-se de cr
 
 ## Solução
 <p align="center">
-    <a href="https://github.com/JG-JoaoFNeto">João Ferreira Neto</a>
+    <a href="./soluction_JFN/README.md">João Ferreira Neto</a>
 </p>
