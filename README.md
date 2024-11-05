@@ -28,9 +28,7 @@ Esta trilha é inteiramente baseada em projetos. O que significa que não haver�
 
 Os projetos estão dentro da pasta /projetos neste repositório. Lembre-se de criar e publicar os seus projetos bem documentados no seu Github!
 
-<div align="center">
 ## Solução
-  <sub>Construído por
+<p align="center">
     <a href="https://github.com/JG-JoaoFNeto">João Ferreira Neto</a>
-  </sub>
-</div>
+</p>
