@@ -61,6 +61,7 @@ Neste projeto, você usará as seguintes tecnologias:
 - Implementar uma query com [full-text search](https://neo4j.com/docs/graphql-manual/current/type-definitions/indexes-and-constraints) e [fuzzy match](https://neo4j.com/labs/apoc/4.3/overview/apoc.text/apoc.text.fuzzyMatch) para encontrar filmes baseado na busca escrita do usuário.
 
 # :construction_worker: Como rodar
+Criar um arquivo .env e atribuir os valores das variáves conforme o sandBox apreendido nos curso Neo4j e GraphQL.
 ```bash
 # Clone o Repositoria
 $ git clone https://github.com/JG-JoaoFNeto/Trilha-de-Aprendizado-GVAND-Stack.git
