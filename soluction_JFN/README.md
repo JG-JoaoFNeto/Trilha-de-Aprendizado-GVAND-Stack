@@ -1,18 +1,12 @@
 # Projeto Back-end sistema de recomendação de filmes
 
-
-
-
-
-
-**Objetivo**: Criar uma API GraphQL para o sistema de recomendação de filmes
+<p align="center">**Objetivo**: Criar uma API GraphQL para o sistema de recomendação de filmes </p>
 <h1 align="center">
 #  João Ferreira Neto Desenvolvedor  </h1>
 <p align="center"><img width="auto" src="https://avatars1.githubusercontent.com/u/20828243?s=460&u=6b7db156aa91f513ca4b58f3bcc32efea1eaceaa&v=4"></p>
 
 
 <p align="center">
-    ·
     <a href="README.md">Português</a>
  </p>
 
