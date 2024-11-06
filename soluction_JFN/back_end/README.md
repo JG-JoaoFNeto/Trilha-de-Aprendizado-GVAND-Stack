@@ -66,11 +66,11 @@ Criar um arquivo .env e atribuir os valores das variáves conforme o sandBox apr
 # Clone o Repositoria
 $ git clone https://github.com/JG-JoaoFNeto/Trilha-de-Aprendizado-GVAND-Stack.git
 
-### 💻 Rode o Project Web
+### 💻 Rode o Project
 
 ```bash
 # Vá para a pasta web
-$ cd Trilha-de-Aprendizado-GVAND-Stack\soluction_JFN
+$ cd Trilha-de-Aprendizado-GVAND-Stack\soluction_JFN\back_end
 
 # Instale as depedencias
 $ npm install

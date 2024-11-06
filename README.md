@@ -30,5 +30,5 @@ Os projetos estão dentro da pasta /projetos neste repositório. Lembre-se de cr
 
 ## Solução
 <p align="center">
-    <a href="./soluction_JFN/README.md">João Ferreira Neto</a>
+    <a href="./soluction_JFN/back_end//README.md">Back-End Aplication GraphQL + Neo4J - JFN</a>
 </p>
