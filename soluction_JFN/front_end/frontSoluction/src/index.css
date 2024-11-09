@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: nf-icon;
+  src: url("./assets/nf-icon-v1-93.woff");
+}
+
+body {
+  background-color: #111;
+  color: white;
+}

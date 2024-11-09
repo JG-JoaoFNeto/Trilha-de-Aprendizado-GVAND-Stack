@@ -1,0 +1,431 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/rl49Qr4KbfTSYjXYAN8fMDIt2xS.jpg",
+            "release_date": "2022-03-30",
+            "genre_ids": [
+                28,
+                878,
+                14
+            ],
+            "original_language": "en",
+            "id": 526896,
+            "poster_path": "/h4WLN3cmEjCsH1fNGRfvGV6IPBX.jpg",
+            "original_title": "Morbius",
+            "video": false,
+            "vote_average": 6.3,
+            "title": "Morbius",
+            "vote_count": 902,
+            "overview": "Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.",
+            "popularity": 4517.118,
+            "media_type": "movie"
+        },
+        {
+            "overview": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
+            "release_date": "2022-04-07",
+            "adult": false,
+            "backdrop_path": "/cqnVuxXe6vA7wfNWubak3x36DKJ.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14,
+                53
+            ],
+            "vote_count": 942,
+            "original_language": "en",
+            "original_title": "The Northman",
+            "poster_path": "/zhLKlUaF1SEpO58ppHIAyENkwgw.jpg",
+            "vote_average": 7.6,
+            "video": false,
+            "id": 639933,
+            "title": "The Northman",
+            "popularity": 4832.321,
+            "media_type": "movie"
+        },
+        {
+            "overview": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
+            "release_date": "2022-05-04",
+            "title": "Doctor Strange in the Multiverse of Madness",
+            "adult": false,
+            "backdrop_path": "/AdyJH8kDm8xT8IKTlgpEC15ny4u.jpg",
+            "genre_ids": [
+                14,
+                28,
+                12
+            ],
+            "original_language": "en",
+            "original_title": "Doctor Strange in the Multiverse of Madness",
+            "poster_path": "/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
+            "vote_count": 1679,
+            "video": false,
+            "vote_average": 7.4,
+            "id": 453395,
+            "popularity": 2767.378,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/A3bsT0m1um6tvcmlIGxBwx9eAxn.jpg",
+            "genre_ids": [
+                28,
+                12,
+                35,
+                10749
+            ],
+            "title": "The Lost City",
+            "original_language": "en",
+            "original_title": "The Lost City",
+            "poster_path": "/neMZH82Stu91d3iqvLdNQfqPPyl.jpg",
+            "id": 752623,
+            "video": false,
+            "vote_average": 6.7,
+            "overview": "A reclusive romance novelist who was sure nothing could be worse than getting stuck on a book tour with her cover model, until a kidnapping attempt sweeps them both into a cutthroat jungle adventure, proving life can be so much stranger, and more romantic, than any of her paperback fictions.",
+            "release_date": "2022-03-24",
+            "vote_count": 618,
+            "popularity": 8128.119,
+            "media_type": "movie"
+        },
+        {
+            "video": false,
+            "vote_average": 7.8,
+            "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+            "release_date": "2022-03-01",
+            "vote_count": 4647,
+            "adult": false,
+            "backdrop_path": "/xHrp2pq73oi9D64xigPjWW1wcz1.jpg",
+            "id": 414906,
+            "genre_ids": [
+                80,
+                9648,
+                53
+            ],
+            "title": "The Batman",
+            "original_language": "en",
+            "original_title": "The Batman",
+            "poster_path": "/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+            "popularity": 3185.47,
+            "media_type": "movie"
+        },
+        {
+            "video": false,
+            "vote_average": 7.7,
+            "overview": "After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands.",
+            "release_date": "2022-03-30",
+            "vote_count": 1469,
+            "adult": false,
+            "backdrop_path": "/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg",
+            "title": "Sonic the Hedgehog 2",
+            "genre_ids": [
+                28,
+                878,
+                35,
+                10751,
+                12
+            ],
+            "id": 675353,
+            "original_language": "en",
+            "original_title": "Sonic the Hedgehog 2",
+            "poster_path": "/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
+            "popularity": 6241.618,
+            "media_type": "movie"
+        },
+        {
+            "overview": "A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully” Sullivan embark on a dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nathan’s long-lost brother.",
+            "release_date": "2022-02-10",
+            "title": "Uncharted",
+            "adult": false,
+            "backdrop_path": "/aEGiJJP91HsKVTEPy1HhmN0wRLm.jpg",
+            "genre_ids": [
+                28,
+                12
+            ],
+            "original_language": "en",
+            "original_title": "Uncharted",
+            "poster_path": "/tlZpSxYuBRoVJBOpUrPdQe9FmFq.jpg",
+            "vote_count": 2002,
+            "video": false,
+            "vote_average": 7.2,
+            "id": 335787,
+            "popularity": 3357.741,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iN3vKCuOGRdZ9Cn3yRGCyMlaiST.jpg",
+            "release_date": "2022-03-24",
+            "genre_ids": [
+                28,
+                878,
+                35,
+                12
+            ],
+            "original_language": "en",
+            "id": 545611,
+            "poster_path": "/rKvCys0fMIIi1X9rmJBxTPLAtoU.jpg",
+            "original_title": "Everything Everywhere All at Once",
+            "video": false,
+            "vote_average": 8.7,
+            "title": "Everything Everywhere All at Once",
+            "vote_count": 234,
+            "overview": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+            "popularity": 232.765,
+            "media_type": "movie"
+        },
+        {
+            "vote_average": 6.7,
+            "overview": "Professor Albus Dumbledore knows the powerful, dark wizard Gellert Grindelwald is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts magizoologist Newt Scamander to lead an intrepid team of wizards and witches. They soon encounter an array of old and new beasts as they clash with Grindelwald's growing legion of followers.",
+            "release_date": "2022-04-06",
+            "adult": false,
+            "backdrop_path": "/zGLHX92Gk96O1DJvLil7ObJTbaL.jpg",
+            "id": 338953,
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "vote_count": 1056,
+            "original_language": "en",
+            "original_title": "Fantastic Beasts: The Secrets of Dumbledore",
+            "poster_path": "/jrgifaYeUtTnaH7NF5Drkgjg2MB.jpg",
+            "title": "Fantastic Beasts: The Secrets of Dumbledore",
+            "video": false,
+            "popularity": 842.686,
+            "media_type": "movie"
+        },
+        {
+            "id": 634649,
+            "video": false,
+            "vote_average": 8.1,
+            "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+            "release_date": "2021-12-15",
+            "adult": false,
+            "backdrop_path": "/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+            "vote_count": 12874,
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "title": "Spider-Man: No Way Home",
+            "original_language": "en",
+            "original_title": "Spider-Man: No Way Home",
+            "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+            "popularity": 2770.153,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fEe5fe82qHzjO4yej0o79etqsWV.jpg",
+            "genre_ids": [
+                16,
+                35,
+                28,
+                10751,
+                80
+            ],
+            "vote_count": 439,
+            "original_language": "en",
+            "original_title": "The Bad Guys",
+            "id": 629542,
+            "title": "The Bad Guys",
+            "video": false,
+            "vote_average": 7.8,
+            "poster_path": "/7qop80YfuO0BwJa1uXk1DXUUEwv.jpg",
+            "overview": "When the infamous Bad Guys are finally caught after years of countless heists and being the world’s most-wanted villains, Mr. Wolf brokers a deal to save them all from prison.",
+            "release_date": "2022-03-17",
+            "popularity": 2603.422,
+            "media_type": "movie"
+        },
+        {
+            "overview": "For more than a decade, parents Andy and Vicky have been on the run, desperate to hide their daughter Charlie from a shadowy federal agency that wants to harness her unprecedented gift for creating fire into a weapon of mass destruction. Andy has taught Charlie how to defuse her power, which is triggered by anger or pain. But as Charlie turns 11, the fire becomes harder and harder to control. After an incident reveals the family's location, a mysterious operative is deployed to hunt down the family and seize Charlie once and for all. Charlie has other plans.",
+            "release_date": "2022-05-12",
+            "adult": false,
+            "backdrop_path": "/bIFrsAcqkLUUxaaiqqpFexYPeCh.jpg",
+            "genre_ids": [
+                53,
+                14,
+                27
+            ],
+            "vote_count": 135,
+            "original_language": "en",
+            "id": 532710,
+            "poster_path": "/2MTGip0nfahQ1jPQCZSfCsPBZes.jpg",
+            "title": "Firestarter",
+            "video": false,
+            "vote_average": 6.5,
+            "original_title": "Firestarter",
+            "popularity": 192.61,
+            "media_type": "movie"
+        },
+        {
+            "overview": "Laura and Massimo are back and hotter than ever. But the reunited couple's new beginning is complicated by Massimo’s family ties and a mysterious man who enters Laura’s life to win her heart and trust, at any cost.",
+            "release_date": "2022-04-27",
+            "title": "365 Days: This Day",
+            "adult": false,
+            "backdrop_path": "/t9hNIUFcy0tYu55IPxjxRTTdZ6X.jpg",
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "original_language": "en",
+            "original_title": "365 Days: This Day",
+            "poster_path": "/7qU0SOVcQ8BTJLodcAlulUAG16C.jpg",
+            "vote_count": 419,
+            "video": false,
+            "vote_average": 5.6,
+            "id": 829557,
+            "popularity": 1192.296,
+            "media_type": "movie"
+        },
+        {
+            "video": false,
+            "title": "Operation Mincemeat",
+            "overview": "In 1943, two British intelligence officers concoct Operation Mincemeat, wherein their plan to drop a corpse with false papers off the coast of Spain would fool Nazi spies into believing the Allied forces were planning to attack by way of Greece rather than Sicily.",
+            "release_date": "2022-04-01",
+            "adult": false,
+            "backdrop_path": "/oZtoyj3rhOST8FUtIXUqblIYmCv.jpg",
+            "vote_count": 123,
+            "genre_ids": [
+                10752,
+                36,
+                18
+            ],
+            "vote_average": 6.8,
+            "original_language": "en",
+            "original_title": "Operation Mincemeat",
+            "poster_path": "/tfdfh1mK24VujxT5z11732asxdR.jpg",
+            "id": 661231,
+            "popularity": 461.379,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3FJ53wbpjSAGY98KYiHJ4DQccDr.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "title": "Senior Year",
+            "original_language": "en",
+            "original_title": "Senior Year",
+            "poster_path": "/6UqbcDQhCYpxboK58Z0eVfdeHcT.jpg",
+            "id": 800937,
+            "video": false,
+            "vote_average": 6.1,
+            "overview": "A thirty-seven-year-old woman wakes up from a twenty-year coma and returns to the high school where she was once a popular cheerleader to finish her senior year and become prom queen. The main plot is the empowerment of LGBTQ rights and progress through the years.",
+            "release_date": "2022-05-11",
+            "vote_count": 179,
+            "popularity": 420.735,
+            "media_type": "movie"
+        },
+        {
+            "overview": "Decorated veteran Will Sharp, desperate for money to cover his wife's medical bills, asks for help from his adoptive brother Danny. A charismatic career criminal, Danny instead offers him a score: the biggest bank heist in Los Angeles history: $32 million.",
+            "release_date": "2022-03-16",
+            "title": "Ambulance",
+            "adult": false,
+            "backdrop_path": "/dW3fQJrshh2wYDoW4HUA7ZabsN1.jpg",
+            "genre_ids": [
+                28,
+                53,
+                80
+            ],
+            "original_language": "en",
+            "original_title": "Ambulance",
+            "poster_path": "/zT5ynZ0UR6HFfWQSRf2uKtqCyWD.jpg",
+            "vote_count": 605,
+            "video": false,
+            "vote_average": 7,
+            "id": 763285,
+            "popularity": 1714.44,
+            "media_type": "movie"
+        },
+        {
+            "original_language": "en",
+            "id": 406759,
+            "poster_path": "/odVv1sqVs0KxBXiA8bhIBlPgalx.jpg",
+            "video": false,
+            "vote_average": 6.5,
+            "overview": "A mysterious force knocks the moon from its orbit around Earth and sends it hurtling on a collision course with life as we know it.",
+            "release_date": "2022-02-03",
+            "vote_count": 1043,
+            "adult": false,
+            "backdrop_path": "/9Ngw106BLlNJ4iVpRHlrDfaLpCV.jpg",
+            "title": "Moonfall",
+            "genre_ids": [
+                878,
+                12,
+                28
+            ],
+            "original_title": "Moonfall",
+            "popularity": 2088.503,
+            "media_type": "movie"
+        },
+        {
+            "genre_ids": [
+                9648,
+                53,
+                28,
+                80
+            ],
+            "original_language": "en",
+            "original_title": "Memory",
+            "poster_path": "/tXpLmtnArbGcE75iPJVYibW7BBf.jpg",
+            "video": false,
+            "vote_average": 7.1,
+            "id": 818397,
+            "overview": "Alex, an assassin-for-hire, finds that he's become a target after he refuses to complete a job for a dangerous criminal organization. With the crime syndicate and FBI in hot pursuit, Alex has the skills to stay ahead, except for one thing: he is struggling with severe memory loss, affecting his every move. Alex must question his every action and whom he can ultimately trust.",
+            "release_date": "2022-04-28",
+            "vote_count": 20,
+            "title": "Memory",
+            "adult": false,
+            "backdrop_path": "/leeHVfEoza4GaZio1tIzevz6XYc.jpg",
+            "popularity": 84.287,
+            "media_type": "movie"
+        },
+        {
+            "release_date": "2022-05-06",
+            "adult": false,
+            "backdrop_path": "/wtbRUVxQVvU6QIJH1oGLDThJLib.jpg",
+            "genre_ids": [
+                35,
+                28
+            ],
+            "vote_count": 128,
+            "original_language": "fr",
+            "original_title": "Loin du périph",
+            "poster_path": "/h5hVeCfYSb8gIO0F41gqidtb0AI.jpg",
+            "title": "The Takedown",
+            "video": false,
+            "vote_average": 5.8,
+            "id": 785985,
+            "overview": "Ousmane Diakité and François Monge are two cops with very different styles, backgrounds and careers. The unlikely pair are reunited once again for a new investigation that takes them across France. What seemed to be a simple drug deal turns out to be a much bigger criminal case wrapped in danger and unexpected comedy.",
+            "popularity": 2216.728,
+            "media_type": "movie"
+        },
+        {
+            "title": "Sneakerella",
+            "overview": "When El, an aspiring sneaker designer from Queens, meets Kira King, the fiercely independent daughter of legendary basketball star and sneaker tycoon Darius King, sparks fly as the two bond over their mutual affinity for sneakers. With a little nudge from his best friend and a sprinkle of Fairy Godfather magic, El finds the courage to use his talent to pursue his dream of becoming a ‘legit’ sneaker designer in the industry.",
+            "release_date": "2022-05-11",
+            "adult": false,
+            "backdrop_path": "/AfRgDih0N952YNipEHKS1t7PkEi.jpg",
+            "vote_count": 24,
+            "genre_ids": [
+                10402,
+                35,
+                10751
+            ],
+            "vote_average": 6.4,
+            "original_language": "en",
+            "original_title": "Sneakerella",
+            "poster_path": "/jJ07f8DTdeWnCKCwDzB4htLXKBN.jpg",
+            "id": 756187,
+            "video": false,
+            "popularity": 319.143,
+            "media_type": "movie"
+        }
+    ],
+    "total_pages": 1000,
+    "total_results": 20000
+}

@@ -1,8 +1,8 @@
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
 import { Neo4jGraphQL } from "@neo4j/graphql";
-import neo4j from "neo4j-driver";''
-import env from 'env-var'
+import neo4j from "neo4j-driver";
+import env from 'env-var';
 
 const config ={
     url: env.get('URL_NEO4J').required().asUrlString(),
