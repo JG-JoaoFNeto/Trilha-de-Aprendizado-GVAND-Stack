@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import { Movie } from "../typings/Movie";
+import { ShortMovie } from "../typings/ShortMovie";
 import MoviePoster from "./MoviePoster.vue";
 
 const props = withDefaults(
   defineProps<{
     title: string;
-    items?: Movie[];
+    items?: ShortMovie[];
   }>(),
   { items: () => [] }
 );
 
 const emits = defineEmits<{
-  (event: "selectMovie", movie: Movie): void;
+  (event: "selectMovie", movie: ShortMovie): void;
 }>();
 </script>
 

@@ -23,10 +23,7 @@ type MoviePayload {
 }
 
 type Query {
-  trendingMovies: MoviePayload!
-  nowPlayingMovies: MoviePayload!
   originalMovies: MoviePayload!
-  topRatedMovies: MoviePayload!
   popularMovies: MoviePayload!
   upcomingMovies: MoviePayload!
   movie(id: String!): MovieFull!

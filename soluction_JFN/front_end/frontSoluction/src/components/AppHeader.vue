@@ -4,11 +4,8 @@ const isDark = ref(false);
 
 const menu = [
   "Home",
-  "TV Shows",
-  "Movies",
-  "Latest",
-  "My List",
-  "Audio & Subtitles",
+  "Login",
+  "MInha lista",
 ];
 
 const changeTheme = () => {

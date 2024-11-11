@@ -4,23 +4,65 @@ import { computed } from "vue";
 import PlayIcon from "../assets/play.svg";
 import InfoIcon from "../assets/info.svg";
 import originals from "../assets/originals.json";
+import { GET_ORIGINALS_QUERY } from "../graphql/queries/getOriginals";
+import { OriginalsMovies } from "../typings/OriginalsMovies";
+import { useQuery } from "@vue/apollo-composable";
+
+import { Movie } from "./typings/Movie";
+
+import { ref } from "vue";
+import MoviePreview from "./MoviePreview.vue";
+
+import { watchEffect } from 'vue';
+
+
 
 const IMAGE_PATH_PREFIX = "https://image.tmdb.org/t/p/original";
 
+const { result,  loading, error } = useQuery<OriginalsMovies>(GET_ORIGINALS_QUERY,{
+  mediaType: "movie"
+});
+
+
 const movie = computed(
-  () => originals.results[Math.floor(Math.random() * originals.results.length)]
+  () =>  {
+    const multiplier = result.value?.originalsMovies.results.length ?? 1 ;
+    const num = Math.floor(Math.random() * multiplier);
+    const num1 = num > 0 ? num : 5;
+    
+    const poArrya = result.value?.originalsMovies.results[num1];
+    return poArrya
+  }
 );
 const imageFullPath = computed(
-  () => `${IMAGE_PATH_PREFIX}${movie.value.backdrop_path}`
+  () => {    
+    return `${IMAGE_PATH_PREFIX}${movie.value.backdrop_path}`
+  }
 );
+const preview = ref<string | null>(null);
+
+const onClosePreview = () => {
+  preview.value = null;
+};
+
+const onChangePreview = (movie: Movie) => {
+  preview.value = movie.id;
+  
+  window.scrollTo({ top: 0 });
+};
+
+// watchEffect(() => {
+  
+//   console.log( "***");
+// })
 </script>
 
 <template>
   <div class="hero">
     <div class="billboard">
       <div class="info absolute left-8 z-20 w-1/3">
-        <div class="font-bold mb-4 text-4xl">{{ movie.title }}</div>
-        <div class="description mb-4 text-sm text-ellipsis">
+        <div v-if="movie" class="font-bold mb-4 text-4xl">{{ movie.title }}</div>
+        <div v-if="movie" class="description mb-4 text-sm text-ellipsis">
           {{ movie.overview }}
         </div>
         <div class="links flex flex-row">
@@ -35,8 +77,8 @@ const imageFullPath = computed(
               <span class="font-bold">Play</span>
             </button>
           </a>
-          <a href="/">
-            <button
+          
+            <button v-if="movie" @click="onChangePreview(movie)"
               class="items-center flex rounded justify-center px-4 py-2 btn-secondary"
             >
               <span class="h-6 w-6">
@@ -45,16 +87,21 @@ const imageFullPath = computed(
               <span class="w-2"></span>
               <span>More info</span>
             </button>
-          </a>
         </div>
       </div>
-      <img
+      <img v-if="movie" 
         loading="lazy"
         class="w-full"
         :src="imageFullPath"
         :alt="movie.title"
       />
     </div>
+    <MoviePreview
+      v-if="preview"
+      :key="preview"
+      :id="preview"
+      @close="onClosePreview"
+    />
   </div>
 </template>
 

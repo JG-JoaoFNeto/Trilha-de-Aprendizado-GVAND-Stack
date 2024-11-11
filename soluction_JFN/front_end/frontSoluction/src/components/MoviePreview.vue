@@ -24,7 +24,7 @@ const imageFullPath = computed(() => `${POSTER_PREFIX}${result.value?.preview.ba
 
 const year = computed(() => result.value?.preview.release_date.split("-")[0]);
 
-const { mutate } = useMutation(ADD_LIKE_MUTATION, { 
+const { mutate: clickUp } = useMutation(ADD_LIKE_MUTATION, { 
   variables: { id: props.id },
   update: (cache, {}, { variables }) => {
     const id = variables!.id;
@@ -39,6 +39,23 @@ const { mutate } = useMutation(ADD_LIKE_MUTATION, {
     });
   },
 });
+
+const { mutate: clickDown } = useMutation(ADD_LIKE_MUTATION, { 
+  variables: { id: props.id },
+  update: (cache, {}, { variables }) => {
+    const id = variables!.id;
+
+    cache.modify({
+      id: cache.identify({ __typename: "Movie", id }),
+      fields: {
+        vote_count: (cachedValue) => {
+          return cachedValue - 1;
+        },
+      },
+    });
+  },
+});
+
 
 </script>
 
@@ -62,13 +79,13 @@ const { mutate } = useMutation(ADD_LIKE_MUTATION, {
         <div class="mb-4 flex items-center">
           {{ year }}
           <span class="w-4"></span>
-          <button @click="mutate(result.preview.id)">
+          <button @click="clickUp()">
             <ThumbUpIcon />
           </button>
           <span class="px-2 font-bold">{{ result.preview.vote_average }}</span>
-          <button>
+          <button @click="clickDown()">
             <ThumbDownIcon />
-          </button>
+          </button >
           <span class="pl-2">({{ result.preview.vote_count }})</span>
         </div>
         <h2 class="text-2xl font-bold mb-2">{{ result.preview.title }}</h2>
@@ -88,3 +105,4 @@ const { mutate } = useMutation(ADD_LIKE_MUTATION, {
 </template>
 
 <style></style>
+

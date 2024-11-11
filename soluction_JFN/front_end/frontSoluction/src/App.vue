@@ -29,21 +29,12 @@ const onChangePreview = (movie: Movie) => {
   <AppHeader />
   <AppHero />
   <OriginalMovies @select-movie="onChangePreview" />
-  <!-- <TrendingMovies @select-movie="onChangePreview" />
-  <NowPlayingMovies @select-movie="onChangePreview" /> -->
   <PopularMovies @select-movie="onChangePreview" />
-  <!-- <TopRatedMovies @select-movie="onChangePreview" />
-  <UpcomingMovies @select-movie="onChangePreview" /> -->
   <MoviePreview
     v-if="preview"
     :id="preview"
     @close="onClosePreview"
-  /> <!-- :image-url="preview.backdrop_path"
-    :title="preview.title"
-    :release-date="preview.release_date"
-    :overview="preview.overview"
-    :vote-average="preview.vote_average"
-    :vote-count="preview.vote_count" -->
+  /> 
 </template>
 
 <style></style>

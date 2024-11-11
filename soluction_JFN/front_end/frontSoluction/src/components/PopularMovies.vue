@@ -4,7 +4,9 @@ import popular from "../assets/popular.json";
 import { GET_POPULAR_QUERY } from "../graphql/queries/getPopular";
 import MoviesSection from "./MoviesSection.vue";
 
-const { result } = useQuery(GET_POPULAR_QUERY);
+import { PopularMovies } from "../typings/PopularMovies";
+
+const { result } = useQuery<PopularMovies>(GET_POPULAR_QUERY);
 
 
 </script>  
